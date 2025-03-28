@@ -2,7 +2,7 @@
     "metainfo":
         {
             "source": "vbench lavie 'by dimension' dataset 'appearance_style' folder",
-            "length": 11
+            "length": 12
         },
     "data_list":
         [
@@ -60,6 +60,11 @@
                 "prompt_gt": "A beautiful coastal beach in spring, waves lapping on sand, watercolor painting",
                 "video_path_pd": "A beautiful coastal beach in spring, waves lapping on sand, watercolor painting-0.mp4",
                 "video_path_gt": "A beautiful coastal beach in spring, waves lapping on sand, watercolor painting-0.mp4"
+            },
+            {
+                "prompt_gt": "test",
+                "video_path_pd": "dbj.MP4",
+                "video_path_gt": "dbj.MP4"
             }
         ]
 }

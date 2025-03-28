@@ -16,8 +16,8 @@ val_dataloader = dict(
     sampler=dict(type=DefaultSampler, shuffle=False),
     dataset=dict(
         type=FidDataset,
-        video_dir='/home/xinhao/AIGVE_Tool/aigve/data/toy/evaluate/',  
-        prompt_dir='/home/xinhao/AIGVE_Tool/aigve/data/toy/annotations/evaluate.json',   
+        video_dir = '/home/zhuosheng/VQA_Toolkit/aigve/data/toy/evaluate/',
+        prompt_dir = '/home/zhuosheng/VQA_Toolkit/aigve/data/toy/annotations/evaluate.json', 
         max_len=20,
         if_pad=False
     )
